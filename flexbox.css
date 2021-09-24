@@ -9,8 +9,8 @@
 @media(max-width: 768px) {
 
 	.containerBlocoLista {
-		display: initial;
-		
+		display: flex;
+		flex-direction: column;
 	}
 
 }

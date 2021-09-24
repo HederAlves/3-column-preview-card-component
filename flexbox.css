@@ -1,0 +1,16 @@
+.containerBlocoLista {
+	display: flex;
+	flex: wrap;
+	justify-content: center;
+	
+}
+
+		/*MOBILE*/
+@media(max-width: 768px) {
+
+	.containerBlocoLista {
+		display: initial;
+		
+	}
+
+}

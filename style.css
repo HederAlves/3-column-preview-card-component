@@ -101,7 +101,7 @@ p {
 
 	.listaSedans {
 		margin: 0 auto;
-		width: 90%;
+		width: 100%;
 		background: hsl(31, 77%, 52%);
 		height: 450px;
 		padding: 50px 15px 30px 50px;
@@ -110,7 +110,7 @@ p {
 
 	.listaSuvs {
 		margin: 0 auto;
-		width: 90%;
+		width: 100%;
 		background: hsl(184, 100%, 22%);
 		height: 450px;
 		padding: 50px 15px 30px 50px;
@@ -118,7 +118,7 @@ p {
 
 	.listaLuxury {
 		margin: 0 auto;
-		width: 90%;
+		width: 100%;
 		background: hsl(179, 100%, 13%);
 		height: 450px;
 		padding: 50px 15px 30px 50px;

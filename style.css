@@ -1,16 +1,16 @@
 body {
+	width: 1260px;
 	margin: 0 auto;
-	width: 1240px;
 	background: hsl(0, 0%, 95%);
 	font-family: sans-serif;
-	padding: 5%;
+	padding: 5% 17%;
 }
 
 .listaSedans {
 	margin: 0 auto;
 	width: 30%;
 	background: hsl(31, 77%, 52%);
-	height: 600px;
+	height: 550px;
 	padding: 50px 10px 30px 60px;
 	border-radius: 10px 0px 0px 10px;
 }
@@ -19,7 +19,7 @@ body {
 	margin: 0 auto;
 	width: 30%;
 	background: hsl(184, 100%, 22%);
-	height: 600px;
+	height: 550px;
 	padding: 50px 0px 30px 58px;
 }
 
@@ -27,7 +27,7 @@ body {
 	margin: 0 auto;
 	width: 30%;
 	background: hsl(179, 100%, 13%);
-	height: 600px;
+	height: 550px;
 	padding: 50px 10px 30px 60px;
 	border-radius: 0px 10px 10px 0px;
 }
@@ -56,7 +56,7 @@ p {
 .saibaMaisSedans {
 	font-weight: bold;
 	color: hsl(31, 77%, 52%);
-	margin-top: 100px;
+	margin-top: 120px;
 	border: 2px solid hsl(0, 0%, 95%);
 	border-radius: 30px;
 	width: 50%;
@@ -66,7 +66,7 @@ p {
 .saibaMaisSuvs {
 	font-weight: bold;
 	color: hsl(184, 100%, 22%);
-	margin-top: 100px;
+	margin-top: 120px;
 	border: 2px solid hsl(0, 0%, 95%);
 	border-radius: 30px;
 	width: 50%;
@@ -76,7 +76,7 @@ p {
 .saibaMaisLuxury {
 	font-weight: bold;
 	color: hsl(179, 100%, 13%);
-	margin-top: 100px;
+	margin-top: 120px;
 	border: 2px solid hsl(0, 0%, 95%);
 	border-radius: 30px;
 	width: 50%;
@@ -95,32 +95,32 @@ p {
 @media(max-width: 768px) {
 
 	body {
-		padding: initial;
 		width: 340px;
+		padding: initial;
 	}
 
 	.listaSedans {
 		margin: 0 auto;
-		width: 100%;
+		width: 90%;
 		background: hsl(31, 77%, 52%);
-		height: 500px;
+		height: 450px;
 		padding: 50px 15px 30px 50px;
 		border-radius: 15px 10px 0px 0px;
 	}
 
 	.listaSuvs {
 		margin: 0 auto;
-		width: 100%;
+		width: 90%;
 		background: hsl(184, 100%, 22%);
-		height: 500px;
+		height: 450px;
 		padding: 50px 15px 30px 50px;
 	}
 
 	.listaLuxury {
 		margin: 0 auto;
-		width: 100%;
+		width: 90%;
 		background: hsl(179, 100%, 13%);
-		height: 500px;
+		height: 450px;
 		padding: 50px 15px 30px 50px;
 		border-radius: 0px 0px 10px 10px;
 	}

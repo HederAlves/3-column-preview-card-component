@@ -1,14 +1,13 @@
 body {
-	width: 1260px;
+	width: 1240px;
 	margin: 0 auto;
 	background: hsl(0, 0%, 95%);
 	font-family: sans-serif;
-	padding: 5% 17%;
+	padding: 5%;
 }
 
 .listaSedans {
-	margin: 0 auto;
-	width: 30%;
+	width: 27%;
 	background: hsl(31, 77%, 52%);
 	height: 550px;
 	padding: 50px 10px 30px 60px;
@@ -16,16 +15,14 @@ body {
 }
 
 .listaSuvs {
-	margin: 0 auto;
-	width: 30%;
+	width: 27%;
 	background: hsl(184, 100%, 22%);
 	height: 550px;
 	padding: 50px 0px 30px 58px;
 }
 
 .listaLuxury {
-	margin: 0 auto;
-	width: 30%;
+	width: 27%;
 	background: hsl(179, 100%, 13%);
 	height: 550px;
 	padding: 50px 10px 30px 60px;
@@ -84,12 +81,8 @@ p {
 }
 
 .attribution {
-
 	margin-top: 20px;
 	text-align: center;
-
-
-
 }
 		/*MOBILE*/
 @media(max-width: 768px) {
@@ -100,46 +93,52 @@ p {
 	}
 
 	.listaSedans {
-		margin: 0 auto;
-		width: 300px;
+		width: 266px;
 		background: hsl(31, 77%, 52%);
 		height: 450px;
-		padding: 50px 15px 30px 50px;
+		padding: 50px 25px 30px 50px;
 		border-radius: 15px 10px 0px 0px;
 	}
 
 	.listaSuvs {
-		margin: 0 auto;
-		width: 300px;
+		width: 276px;
 		background: hsl(184, 100%, 22%);
 		height: 450px;
 		padding: 50px 15px 30px 50px;
 	}
 
 	.listaLuxury {
-		margin: 0 auto;
-		width: 300px;
+		width: 276px;
 		background: hsl(179, 100%, 13%);
 		height: 450px;
 		padding: 50px 15px 30px 50px;
 		border-radius: 0px 0px 10px 10px;
 	}
 
+	.titulos {
+		width: 276px;
+	}
+
 	p {
+		width: 250px;
 		font-size: 20px;
 	}
 
 	.saibaMaisSedans {
-		margin-top: 50px;
-		
+		margin-top: 50px;	
 	}
 
 	.saibaMaisSuvs {
 		margin-top: 50px;
-		
 	}
 
 	.saibaMaisLuxury {
 		margin-top: 50px;
+	}
 
+	.attribution {
+
+		width: 340px;
+	}
+	
 }
